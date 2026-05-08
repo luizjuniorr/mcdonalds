@@ -1,0 +1,107 @@
+{
+  "cardapio_mcdonalds": {
+    "todos": "Lista consolidada de todos os itens abaixo",
+    "lanches": [
+      {
+        "nome": "Sanduíche Brasil (Seleção Copa 2026)",
+        "descricao": "Pão tipo brioche, dois hambúrgueres de carne bovina, molho sabor vinagrete, farofa defumada, cebola fresca, tomate, bacon, molho sabor churrasco e queijo emental.",
+        "preco": "R$ 40,00",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$brasil_300x225.png/200/200/original?country=br"
+      },
+      {
+        "nome": "Big Mac",
+        "descricao": "Dois hambúrgueres (100% carne bovina), alface americana, queijo cheddar, molho especial, cebola, picles e pão com gergelim.",
+        "preco": "R$ 31,00",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$BigMac.png/200/200/original?country=br"
+      },
+      {
+        "nome": "Cheddar McMelt",
+        "descricao": "Um hambúrguer (100% carne bovina), molho lácteo com queijo tipo cheddar, cebola ao molho shoyu e pão escuro com gergelim.",
+        "preco": "R$ 31,00",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Cheddar%20McMelt.png/200/200/original?country=br"
+      },
+      {
+        "nome": "Brabo Bacon Salad",
+        "descricao": "Carne 100% bovina, alface, tomate, cebola, fatias de bacon, queijo cheddar e molho especial no pão brioche.",
+        "preco": "R$ 42,90",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$300x225_Carne.png/200/200/original?country=br"
+      }
+    ],
+    "combos": [
+      {
+        "nome": "McOferta Média Brasil",
+        "descricao": "Sanduíche Brasil + McFritas Brasil + Bebida Média.",
+        "preco": "R$ 49,10",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Oferta%20Brasil.png/200/200/original?country=br"
+      },
+      {
+        "nome": "McOferta Média Big Mac",
+        "descricao": "Sanduíche Big Mac + McFritas Média + Bebida Média.",
+        "preco": "R$ 38,90",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Oferta%20Big%20Mac.png/200/200/original?country=br"
+      },
+      {
+        "nome": "Combo Brasil com Sobremesa",
+        "descricao": "Sanduíche Brasil + McFritas Brasil + Bebida + McFlurry Brasil.",
+        "preco": "R$ 75,10",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Combo%20Brasil%20com%20Sobremesa.png/200/200/original?country=br"
+      }
+    ],
+    "acompanhamentos": [
+      {
+        "nome": "McFritas Brasil",
+        "descricao": "Batatas fritas crocantes acompanhadas de maionese verde e farofa de bacon.",
+        "preco": "R$ 28,00",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McFritas%20Brasil.png/200/200/original?country=br"
+      },
+      {
+        "nome": "Chicken McNuggets (10 unidades)",
+        "descricao": "Pedaços de peito de frango empanados e dourados, acompanhados de molho.",
+        "preco": "R$ 22,50",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Nuggets.png/200/200/original?country=br"
+      },
+      {
+        "nome": "McFritas Grande",
+        "descricao": "As famosas batatas fritas do Méqui, fritas no ponto certo e salgadas.",
+        "preco": "R$ 16,90",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McFritas%20Grande.png/200/200/original?country=br"
+      }
+    ],
+    "bebidas": [
+      {
+        "nome": "Coca-Cola 500ml",
+        "descricao": "Refrigerante refrescante de cola com gelo.",
+        "preco": "R$ 13,90",
+        "imagem": "https://www.mcdonalds.com.br/images/cardapio/bebidas/coca-cola.png"
+      },
+      {
+        "nome": "Suco de Uva 100%",
+        "descricao": "Suco de uva integral sem adição de açúcares.",
+        "preco": "R$ 12,00",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Suco%20de%20Uva%20100%.png/200/200/original?country=br"
+      }
+    ],
+    "milk_shake": [
+      {
+        "nome": "McShake Brasil",
+        "descricao": "Bebida à base de leite e baunilha, com caramelo, coco e farofa crocante.",
+        "preco": "R$ 21,00",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McShake%20Brasil.png/200/200/original?country=br"
+      },
+      {
+        "nome": "McShake Chocolate",
+        "descricao": "Mix de baunilha, leite e calda de chocolate.",
+        "preco": "R$ 18,50",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$McShake%20Chocolate.png/200/200/original?country=br"
+      }
+    ],
+    "ofertas_do_dia": [
+      {
+        "nome": "Méqui do Dia",
+        "descricao": "Cada dia um sanduíche clássico por um preço promocional (Ex: Clássico do dia).",
+        "preco": "A partir de R$ 10,90 (no App)",
+        "imagem": "https://api-middleware-mcd.mcdonaldscupones.com/media/image/product$Méqui%20do%20Dia.png/200/200/original?country=br"
+      }
+    ]
+  }
+}

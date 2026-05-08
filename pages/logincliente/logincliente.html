@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./logincliente.css">
+    <link rel="shortcut icon" href="../../assets/mcdonalds.png" type="image/x-icon">
+    <title>McDonald's</title>
+</head>
+
+<body>
+    <main>
+        <a href="../../index.html"><- Voltar</a>
+                <div class="logo">
+                    <img src="../../assets/mcdonalds.png" alt="McDonald's">
+
+                    <div class="titulo">
+
+                        <div class="icon">
+                            <div>
+                                <img src="../../assets/user_vermelho.png" alt="Usuario" class="userpreto">
+                            </div>
+                        </div>
+
+                        <h1>Bem-Vindo!</h1>
+                    </div>
+
+                    <p>Digite seu nome para continuar</p>
+                </div>
+
+                <form action="">
+                    <label for="nome">Seu Nome</label>
+                    <input type="text" placeholder="Digite seu nome" id="nome">
+                    
+                    <button onclick="
+                    if(document.getElementById('nome').value.trim() === '') {
+                        alert('Por favor, digite seu nome para continuar.');
+                    } else {
+                        window.location.href = '../cardapio/cardapio.html';
+                    }
+                    " type="button">Continuar</button>
+                    
+                </form>
+
+    </main>
+
+    <p>© 2026 McDonald's. Todos os direitos reservados.</p>
+</body>
+
+</html>

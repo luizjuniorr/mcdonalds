@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: #DA291C;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza: #4a5565;
+    --cinza-claro: #e5e7eb;
+    --cinza-fundocard: #f7f8f9;
+    --fundocard-red: #ffecec;
+
+    --amarelo: #f0b100;
+    --fundocard-amarelo: #fefbe2;
+
+
+    --arial: "Arial", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --noto-sans: "Noto Sans", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    /* font-family: "Noto Sans", sans-serif; */
+}
+
+body {
+    background: linear-gradient(168deg, rgba(232, 0, 14, 1) 0%, rgba(255, 100, 40, 1) 50%, rgba(254, 189, 0, 1) 100%);
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background: var(--branco);
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 370px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo h1 {
+    color: var(--vermelho);
+    font-family: var(--noto-sans);
+    font-weight: 500;
+}
+
+.logo p {
+    color: var(--cinza);
+    font-family: var(--arial);
+    font-size: 14px;
+}
+
+.tipo-de-acesso {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-top: 30px;
+}
+
+.userbranco {
+    display: none;
+}
+
+.cliente>div:hover {
+    cursor: pointer;
+    border: 3px solid var(--vermelho);
+    background: var(--fundocard-red);
+
+    && div {
+        background: var(--vermelho);
+    }
+
+    && .userpreto {
+        display: none;
+    }
+
+    && .userbranco {
+        display: block;
+    }
+}
+
+.cliente {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.cliente>div {
+    border: 1px solid var(--cinza-claro);
+    background: var(--cinza-fundocard);
+    padding: 50px 20px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.cliente>div h2 {
+    font-family: var(--roboto);
+    font-weight: 500;
+}
+
+.cliente>div p {
+    font-family: var(--arial);
+    font-weight: 500;
+
+    text-align: center;
+    color: var(--cinza);
+    font-size: 12px;
+}
+
+.cliente div div img {
+    width: 50px;
+}
+
+.cliente div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    width: 90px;
+    height: 90px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.chefbranco {
+    display: none;
+}
+
+.garcom>div:hover {
+    cursor: pointer;
+    border: 3px solid var(--amarelo);
+    background: var(--fundocard-amarelo);
+
+    && div {
+        background: var(--amarelo);
+    }
+
+    && .chefpreto {
+        display: none;
+    }
+
+    && .chefbranco {
+        display: block;
+    }
+}
+
+.cliente, .garcom {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.garcom>div {
+    border: 1px solid var(--cinza-claro);
+    background: var(--cinza-fundocard);
+    padding: 50px 20px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.garcom>div h2 {
+    font-family: var(--roboto);
+    font-weight: 500;
+}
+
+.garcom>div p {
+    font-family: var(--arial);
+    font-weight: 500;
+
+    text-align: center;
+    color: var(--cinza);
+    font-size: 12px;
+}
+
+.garcom div div img {
+    width: 50px;
+}
+
+.garcom div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    width: 90px;
+    height: 90px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+p {
+    color: var(--branco);
+    font-family: var(--arial);
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+@media (min-width: 1100px) {
+    main {
+        min-width: 700px;
+    }
+
+    .tipo-de-acesso {
+        flex-direction: row;
+    }
+
+    .tipo-de-acesso a {
+        min-width: 300px;
+    }
+}
